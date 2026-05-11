@@ -1,0 +1,32 @@
+<!-- Arquivo que define a estrutura específica a ser seguida pelos cards de palestra -->
+
+<div class="card tema-{{ palestra.tema }}" id="{{ palestra.id | slugify }}">
+    <button class="card-toggle">
+        <i class="{{ palestra.icone_esq }} card-icon-left"></i>
+        <div class="toggle-text">
+            <div class="toggle-title">{{ palestra.title }}</div>
+            <div class="toggle-subtitle">{{ palestra.horario }}</div>
+        </div>
+        <i class="{{ palestra.icone_dir }} card-icon-right"></i>
+    </button>
+    <div class="card-content">
+        <p>{{ palestra.descricao | resolve_link | markdownify }}</p>
+
+        <div class="row">
+            {% for p in palestra.palestrantes %}
+            <div class="medium-3 columns">
+                <img
+                    class="img-responsive"
+                    src="{{ site.urlimg }}{{ p.foto }}"
+                    alt="{{ p.nome }}"
+                />
+                <p>
+                    <a href="{{ p.link | resolve_link }}">{{ p.nome }}</a>
+                    {{ p.cargo }}
+                </p>
+            </div>
+            {% endfor %}
+        </div>
+        <p><strong>Local:</strong> {{ palestra.local }}</p>
+    </div>
+</div>
