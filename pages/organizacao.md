@@ -1,9 +1,9 @@
 ---
 layout: page-fullwidth
 title: 'Organização'
-meta_title: 'SEMESO 2025'
-subheadline: 'SEMESO 2025 - 16 a 18/09 - UDESC Alto Vale'
-teaser: 'XII Seminário de Engenharia de Software'
+meta_title: 'SEMESO 2026'
+subheadline: 'SEMESO 2026 - 06 a 08/10 - UDESC Alto Vale'
+teaser: 'XIII Seminário de Engenharia de Software'
 header:
     image_fullwidth: 'banner-semeso-25.png'
 permalink: '/organizacao/'
@@ -198,37 +198,22 @@ permalink: '/organizacao/'
 
   </div>
 
-  <!-- Shaiene -->
+  <!-- Maria Eduarda Müller Ermes -->
   <div class="org-card">
     <div class="org-avatar">
-      <img src="{{ '/images/shaiene_pereira.jpg' | relative_url }}" alt="Shaiene Pereira">
+      <img src="{{ '/images/shaiene_pereira.jpg' | relative_url }}" alt="Maria Eduarda Müller Ermes">
     </div>
-    <div class="org-name">Shaiene Pereira</div>
+    <div class="org-name">Maria Eduarda Müller Ermes</div>
     <div class="org-meta">Acadêmica</div>
     <div class="org-roles">
       <span class="role-badge talks">Coordenação de Palestras</span>
       <span class="role-badge ops">Coordenação de Infraestrutura</span>
-      <span class="role-badge marketing">Coordenação de Marketing</span>
+      <span class="role-badge dev">Desenvolvimento Web</span>
     </div>
     <div class="org-links">
-      <a class="org-link linkedin" href="https://www.linkedin.com/in/shaiene-pereira-183965203/" target="_blank">LinkedIn</a>
+      <a class="org-link linkedin" href="" target="_blank">LinkedIn</a>
     </div>
 
-  </div>
-
-  <!-- Lucas -->
-  <div class="org-card">
-    <div class="org-avatar">
-      <img src="{{ '/images/lucas_rodrigues.jpg' | relative_url }}" alt="Lucas Rodrigues">
-    </div>
-    <div class="org-name">Lucas Rodrigues</div>
-    <div class="org-meta">Acadêmico</div>
-    <div class="org-roles">
-      <span class="role-badge courses">Coordenação de Minicursos</span>
-    </div>
-    <div class="org-links">
-      <a class="org-link linkedin" href="https://www.linkedin.com/in/lrodrigues21/" target="_blank">LinkedIn</a>
-    </div>
   </div>
 
   <!-- Gabriel -->
