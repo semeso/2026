@@ -108,9 +108,9 @@ endcapture %} {% assign title = title | strip_html | escape | strip_newlines %}
     href="{{ url }}/assets/mediaelement_js/mediaelementplayer.min.css"
 />
 {% endif %} {% include _favicon.html %} {% unless page.style == NULL %}
-<style type="text/css">
+<!--<style type="text/css">
     {{ page.style }}
-</style>
+</style>-->
 {% endunless %} {% if site.google_analytics_tracking_id %}
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script

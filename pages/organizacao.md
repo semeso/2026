@@ -201,7 +201,7 @@ permalink: '/organizacao/'
   <!-- Maria Eduarda Müller Ermes -->
   <div class="org-card">
     <div class="org-avatar">
-      <img src="{{ '/images/shaiene_pereira.jpg' | relative_url }}" alt="Maria Eduarda Müller Ermes">
+      <img src="" alt="">
     </div>
     <div class="org-name">Maria Eduarda Müller Ermes</div>
     <div class="org-meta">Acadêmica</div>
@@ -215,21 +215,3 @@ permalink: '/organizacao/'
     </div>
 
   </div>
-
-  <!-- Gabriel -->
-  <div class="org-card">
-    <div class="org-avatar">
-      <img src="{{ '/images/gabriel_kuter.png' | relative_url }}" alt="Gabriel Schattenberg Küter">
-    </div>
-    <div class="org-name">Gabriel Schattenberg Küter</div>
-    <div class="org-meta">Acadêmico</div>
-    <div class="org-roles">
-      <span class="role-badge marketing">Coordenação de Marketing</span>
-      <span class="role-badge design">Identidade Visual</span>
-      <span class="role-badge dev">Desenvolvimento Web</span>
-    </div>
-    <div class="org-links">
-      <a class="org-link linkedin" href="https://www.linkedin.com/in/gabriel-k%C3%BCter/?originalSubdomain=br" target="_blank">LinkedIn</a>
-    </div>
-  </div>
-</div>
