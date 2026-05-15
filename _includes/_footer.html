@@ -1,38 +1,5 @@
 <style>
-#diamante .columns,
-#Platina .columns,
-#prata .columns {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 60px; 
-  text-align: center;
-  margin-top: 40px; 
-}
 
-#diamante .columns a,
-#Platina .columns a,
-#prata .columns a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#Platina .columns img,
-#prata .columns img {
-  max-height: 100px; 
-  height: auto;
-  width: auto;
-}
-
-#diamante .columns img{
-  max-height: 180px;
-}
-
-#Platina .columns {
-  gap: 80px; 
-}
 /* Efeito de hover nas logos */
 #realizacao .columns img,
 #diamante .columns img,
@@ -41,56 +8,10 @@
   transition: transform 0.25s ease, filter 0.25s ease; 
 }
 
-#diamante .columns img:hover,
-#Platina .columns img:hover,
-#prata .columns img:hover {
-  transform: scale(1.08); 
-  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2)); 
-}
-
 #realizacao .columns img:hover {
   transform: scale(1.08); 
 }
 
-#diamante h2 {
-  animation: emphasize 0.6s ease-out forwards;
-  color: #7c3aed; 
-  font-weight: 700;
-}
-
-
-#Platina h2 {
-  animation: emphasize 0.55s ease-out forwards;
-  color: #b085f5;; 
-  font-weight: 600;
-}
-
-#prata h2 {
-  animation: emphasize 0.5s ease-out forwards;
-  color: #f59e0b; 
-  font-weight: 600;
-}
-#prata img[alt="Logo da Effecti"] {
-  max-height: 160px; 
-}
-
-@media (max-width: 768px) {  
-  #diamante .columns img {
-    max-height: 140px;
-  }
-  #Platina .columns img{
-    max-height: 80px;
-  }
-  #Platina img[alt="Logo da PontoGov Sistemas"] {
-    max-height: 60px;
-  }
-  #prata img[alt="Logo da Effecti"] {
-  max-height: 120px !important; 
-}
-  #prata .columns img {
-    max-height: 80px;
-  }
-}
 </style>
 
 <div id="realizacao" class="row" data-aos="fade-up">
@@ -100,38 +21,6 @@
     </figure>
    </div>
 
-<div id="diamante" class="row" data-aos="fade-right">
-  <h2>Parceiro Diamante</h2>
-  <div class="small-12 columns">
-    <a href=""><!-- link do site -->
-      <img src="" alt=""> <!--imagem -->
-    </a>
-  </div>
-</div>
-
-<div id="Platina" class="row" data-aos="fade-right">
-  <h2>Parceiros Platina</h2>
-  <div class="small-12 columns">
-    <a href="">
-      <img src="" alt="">
-    </a>
-    <a href="">
-      <img src="" alt="">
-    </a>
-  </div>
-</div>
-
-<div id="prata" class="row" data-aos="fade-left">
-  <h2>Parceiros Prata</h2>
-  <div class="small-12 columns">
-    <a href="">
-      <img src="" alt="">
-    </a>
-    <a href="">
-      <img src="" alt="">
-    </a>
-  </div>
-</div>
 
 <div id="up-to-top" class="row" data-aos="fade-up">
       <div class="small-12 columns" style="text-align: right;">

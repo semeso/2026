@@ -8,10 +8,10 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'SEMESO 2025'
+title: 'SEMESO 2026'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'XII Seminário de Engenharia de Software'
+slogan: 'XIII Seminário de Engenharia de Software'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
 description: 'O SEMESO é um evento com palestras e minicursos na área de Engenharia de Software.'
@@ -26,11 +26,11 @@ author: fds
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 url: 'https://semeso.github.io'
-baseurl: '/2025'
+baseurl: '/2026'
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/semeso/2025/edit/gh-pages
+improve_content: https://github.com/semeso/2026/edit/gh-pages
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -38,7 +38,7 @@ improve_content: https://github.com/semeso/2025/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://semeso.github.io/2025/images/'
+urlimg: 'https://semeso.github.io/2026/images/'
 
 # Logo size is 600x80 pixels
 logo: 'logo.png'
