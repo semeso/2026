@@ -36,8 +36,8 @@ body.video p,
 body.video a,
 body.video blockquote:before,
 body.video blockquote:after,
-body.video cite a, { color: #fff; }
-body.video cite a:visited, { color: #fff; }
+body.video cite a { color: #fff; }
+body.video cite a:visited { color: #fff; }
 body.video cite { color: #fff; }
 
 
@@ -361,3 +361,10 @@ body.video cite { color: #fff; }
 .pr5  { padding-right: 5px !important; }
 .pr10 { padding-right: 10px !important; }
 .pr20 { padding-right: 20px !important; }
+
+header,
+header h1,
+.teaser,
+h3 {
+    text-align: center;
+}
