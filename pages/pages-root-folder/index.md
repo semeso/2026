@@ -7,10 +7,7 @@
 # O layout frontpage faz o ultimo arquivo de _posts aparecer na pagina inicial
 #
 layout: page-fullwidth
-title: 'SEMESO 2026'
-teaser: 'XIII Seminário de Engenharia de Software.'
 header:
-   # image_fullwidth: 'banner-semeso-25.png'
 permalink: /index.html
 #
 # This is a nasty hack to make the navigation highlight
