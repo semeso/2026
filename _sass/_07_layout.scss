@@ -313,37 +313,38 @@ body.video cite { color: #fff; }
 /* Footer
 ------------------------------------------------------------------- */
 
+
+
+#footer, .footer {
+    background: rgba(242, 242, 247, 0.75) !important;
+
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+    border-top: 1px solid rgba(255,255,255,0.5);
+
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.05);
+
+    color: #1c1c1e !important;
+    }
 #footer-content p,
 #footer-content li {
     font-size: rem-calc(13);
     font-weight: 300;
 }
-
-#footer {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    background: $footer-bg;
-    color: $footer-color;
-    }
-
-    #footer a {
-        color: $footer-link-color;
-    }
-    #footer h4,
-    #footer h5 {
-        letter-spacing: 1px;
-        color: #fff;
-        text-transform: uppercase;
-    }
-
-
-
+#footer li,
+#footer a,
+#subfooter p,
+#subfooter a,
+#subfooter li {
+    color: #3a3a3c !important;
+}
 /* Subfooter
 ------------------------------------------------------------------- */
 
-#subfooter {
-    background: $subfooter-bg;
-    color: $subfooter-color;
+#subfooter, .subfooter  {
+    background: #e5e5ea !important;
+    color: #1c1c1e;
     padding-top: 30px;
 }
 
@@ -351,36 +352,41 @@ body.video cite { color: #fff; }
     float: left;
 }
 
-.credits a {
-    color: $subfooter-link-color;
-    border: 0;
-    text-transform: uppercase;
-    &:hover {
-        color: #fff;
-  }
-}
-
 .social-icons {
     margin-bottom: 10px !important;
-
-// Beware of SCSS-Syntax here
-  li {
-    padding: 0 0 20px 0;
-  }
-  a {
-    font-size: rem-calc(23);
-    display: block;
-    width: 36px;
-    border-radius: 50%;
-    color: $subfooter-bg;
-    background: $subfooter-color;
-    text-align: center;
-    &:hover {
-      background: $subfooter-bg;
-      color: #fff;
-    }
-  }
 }
+
+.social-icons li {
+    padding: 0 0 20px 0;
+}
+
+.social-icons a {
+    font-size: rem-calc(23);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 42px;
+    height: 42px;
+
+    border-radius: 50%;
+
+    background: #d1d1d6;
+    color: #1c1c1e !important;
+
+    text-align: center;
+
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background: #c7c7cc;
+    color: #000 !important;
+
+    transform: translateY(-2px);
+}
+
 
 
 

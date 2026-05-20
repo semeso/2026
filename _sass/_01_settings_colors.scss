@@ -106,9 +106,10 @@ $topbar-menu-icon-color-toggled: #000000;
 /* Footer
 ------------------------------------------------------------------- */
 
-$footer-bg: $ci-2;
-$footer-color       : #fff;
-$footer-link-color  : $ci-6;
+$footer-bg: grey;
+$footer-color: #fff;
+$footer-link-color: $grey-4;
+
 #footer a {
   color: $footer-link-color;
 
@@ -118,9 +119,10 @@ $footer-link-color  : $ci-6;
   }
 }
 
-$subfooter-bg: $ci-1;
-$subfooter-color: $ci-6;
-$subfooter-link-color: $ci-5;
+
+$subfooter-bg: grey;
+$subfooter-color: $grey-6;
+$subfooter-link-color: $grey-5;
 .subfooter a:hover {
   color: lighten($subfooter-link-color, 10%);
   text-decoration: underline;
