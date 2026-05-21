@@ -1,6 +1,6 @@
 ---
-title: '17/09 (quarta)'
-id: 'dia_17'
+title: 'Em breve...'
+id: 'dia_07'
 itens:
     - horario: '18:30 às 19:00'
       titulo: 'Credenciamento'
