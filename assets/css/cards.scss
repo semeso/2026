@@ -99,7 +99,7 @@
   aspect-ratio: 1/1;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 6px 12px rgba(245, 63, 63, 0.979);
 }
 
 .card.active .card-content {
@@ -127,12 +127,12 @@
   right: 50px;
 }
 
-/*PALESTRAS -> Temas*/
+/*PALESTRAS -> Temas- alterar conforme a logo*/
 .card.tema-dara        { border-left: 5px solid #00B894; }
 .card.tema-engenharia_software { border-left: 5px solid #6366F1; }
 .card.tema-mercado     { border-left: 5px solid #AC43ED; }
 
-/*MINICURSOS -> Temas*/
+/*MINICURSOS -> Temas- alterar conforme a logo */
 .card.tema-comunicacao   { border-left: 5px solid #ff0084; } 
 .card.tema-vue         { border-left: 5px solid #00faaf; } 
 .card.tema-robotica      { border-left: 5px solid #6D28D9; } 
