@@ -1,8 +1,6 @@
 ---
 title: 'Em breve...'
-
-descricao: |
-    Em breve 
-
+id: 'dia_07'
+itens:
 
 ---

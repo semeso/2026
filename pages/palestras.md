@@ -1,12 +1,10 @@
 ---
 layout: page-fullwidth
 title: 'Palestras e Painéis'
-meta_title: 'SEMESO 2025'
-subheadline: 'SEMESO 2025 - 16 a 18/09 - UDESC Alto Vale'
-teaser: 'XII Seminário de Engenharia de Software'
+meta_title: 'SEMESO 2026'
+subheadline: 'SEMESO 2026 - 06 a 08/10 - UDESC Alto Vale'
+teaser: 'XIII Seminário de Engenharia de Software'
 teaser: 'Clique nos cards abaixo para expandir o conteúdo das nossas palestras e painéis'
-header:
-    image_fullwidth: 'banner-semeso-25.png'
 permalink: '/palestras/'
 ---
 
