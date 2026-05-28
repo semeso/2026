@@ -1,12 +1,11 @@
 ---
 layout: page-fullwidth
 title: 'Contato'
-meta_title: 'SEMESO 2025'
-subheadline: 'SEMESO 2025 - 16 a 18/09 - UDESC Alto Vale'
-teaser: 'XII Seminário de Engenharia de Software'
+meta_title: 'SEMESO 2026'
+subheadline: 'SEMESO 2026 - 08 a 06/10 - UDESC Alto Vale'
+teaser: 'XIII Seminário de Engenharia de Software'
 permalink: '/contact/'
 header:
-    image_fullwidth: 'banner-semeso-25.png'
 ---
 
 <style>

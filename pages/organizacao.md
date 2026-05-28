@@ -35,7 +35,7 @@ permalink: '/organizacao/'
 .org-card:hover{ 
   transform:translateY(-10px); 
   box-shadow:0 6px 18px rgba(0,0,0,.08); 
-  border:2px solid #ff4800ff; 
+  border:2px solid rgb(23, 95, 27); 
 }
 
 /* avatar */
@@ -201,7 +201,7 @@ permalink: '/organizacao/'
   <!-- Maria Eduarda Müller Ermes -->
   <div class="org-card">
     <div class="org-avatar">
-      <img src="" alt="">
+      <img src="{{ '/images/maria_ermes.jpeg' | relative_url }}" alt="Maria Eduarda Müller Ermes">
     </div>
     <div class="org-name">Maria Eduarda Müller Ermes</div>
     <div class="org-meta">Acadêmica</div>
@@ -211,7 +211,7 @@ permalink: '/organizacao/'
       <span class="role-badge dev">Desenvolvimento Web</span>
     </div>
     <div class="org-links">
-      <a class="org-link linkedin" href="" target="_blank">LinkedIn</a>
+      <a class="org-link linkedin" href="https://www.linkedin.com/in/maria-eduarda-m%C3%BCller-ermes/" target="_blank">LinkedIn</a>
     </div>
 
   </div>
