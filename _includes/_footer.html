@@ -2,17 +2,32 @@
 
 /* Efeito de hover nas logos */
 #realizacao .columns img,
+#apoio .columns img,
 #diamante .columns img,
 #Platina .columns img,
 #prata .columns img {
   transition: transform 0.25s ease, filter 0.25s ease; 
 }
 
-#realizacao .columns img:hover {
+#realizacao .columns img:hover,
+#apoio .columns img:hover{
   transform: scale(1.08); 
 }
 
+#apoio img{
+  max-width: 100px;
+}
+
 </style>
+
+   <div id="apoio" class="row" data-aos="fade-up">
+    <h2> Apoio </h2>
+    <figure class="columns">
+      <a href="https://www.sbc.org.br/"><img src="{{ site.baseurl }}/images/logo-sbc-menor.png" alt="Logo da SBC"
+         width="1647"
+         height="363"></a>
+    </figure>
+   </div>
 
 <div id="realizacao" class="row" data-aos="fade-up">
     <h2> Realização </h2>
@@ -20,6 +35,7 @@
       <a href="https://www.ceavi.udesc.br"><img src="{{site.urlimg}}logo-udesc-altovale.jpg" alt="Logo da Universidade do Estado de Santa Catarina"></a>
     </figure>
    </div>
+
 
 
 <div id="up-to-top" class="row" data-aos="fade-up">
