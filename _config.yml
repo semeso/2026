@@ -41,7 +41,7 @@ improve_content: https://github.com/semeso/2026/edit/gh-pages
 urlimg: 'https://semeso.github.io/2026/images/'
 
 # Logo size is 600x80 pixels
-logo: 'logo.png'
+logo: 'logo-semeso.png'
 
 # Plugins
 plugins:
