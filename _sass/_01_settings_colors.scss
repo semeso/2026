@@ -26,11 +26,11 @@ $body-bg            : #fdfdfd;
    https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
 -------------------------------------------------------------------  */
 
-$ci-1: #270857; 
-$ci-2: #1F0039; 
+$ci-1: #160857; 
+$ci-2: #140039; 
 $ci-3: #3B82F6; 
 $ci-4: #94A3B8; 
-$ci-5: #001dbf; 
+$ci-5: #bf0000; 
 $ci-6: #0a1af6; 
 
 
@@ -39,6 +39,7 @@ $ci-6: #0a1af6;
 
 $primary-color      : $ci-1;
 $secondary-color    : $ci-6;
+$tertiary-color     : $ci-3;
 $alert-color        : $ci-5;
 $success-color      : $ci-6;
 $warning-color      : $ci-4;
