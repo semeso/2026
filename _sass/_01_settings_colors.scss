@@ -25,7 +25,7 @@ $body-bg            : #fdfdfd;
    Corporate Identity Colorpalette
    https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
 -------------------------------------------------------------------  */
-
+$ci-0: #20f0cd;
 $ci-1: #160857; 
 $ci-2: #140039; 
 $ci-3: #3B82F6; 
@@ -36,7 +36,7 @@ $ci-6: #0a1af6;
 
 /* Foundation Color Variables
 ------------------------------------------------------------------- */
-
+$cor-logo            : $ci-0;
 $primary-color      : $ci-1;
 $secondary-color    : $ci-6;
 $tertiary-color     : $ci-3;

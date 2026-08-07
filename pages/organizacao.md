@@ -201,7 +201,7 @@ permalink: '/organizacao/'
   <!-- Maria Eduarda Müller Ermes -->
   <div class="org-card">
     <div class="org-avatar">
-      <img src="{{ '/images/maria_ermes.jpeg' | relative_url }}" alt="Maria Eduarda Müller Ermes">
+      <img src="{{ '/images/maria-eduarda-m-ermes.jpeg' | relative_url }}" alt="Maria Eduarda Müller Ermes">
     </div>
     <div class="org-name">Maria Eduarda Müller Ermes</div>
     <div class="org-meta">Acadêmica</div>
@@ -213,5 +213,35 @@ permalink: '/organizacao/'
     <div class="org-links">
       <a class="org-link linkedin" href="https://www.linkedin.com/in/maria-eduarda-m%C3%BCller-ermes/" target="_blank">LinkedIn</a>
     </div>
+      </div>
 
+  <!-- Maria Eduarda de Quadros -->
+  <div class="org-card">
+    <div class="org-avatar">
+      <img src="{{ '/images/maria-eduarda-quadros.jpeg' | relative_url }}" alt="Maria Eduarda de Quadros">
+    </div>
+    <div class="org-name">Maria Eduarda de Quadros</div>
+    <div class="org-meta">Acadêmica</div>
+    <div class="org-roles">
+      <span class="role-badge talks">Coordenação de Minicursos</span>
+    </div>
+    <div class="org-links">
+    <!--   <a class="org-link linkedin" href="" target="_blank">LinkedIn</a> -->
   </div>
+    </div>
+
+  <!-- Nicolas Scandolara -->
+  <div class="org-card">
+    <div class="org-avatar">
+      <img src="{{ '/images/nicolas.jpg' | relative_url }}" alt="">
+    </div>
+    <div class="org-name">Nicolas Scandolara de Castro</div>
+    <div class="org-meta">Acadêmico</div>
+    <div class="org-roles">
+      <span class="role-badge talks">Coordenação de Minicursos</span>
+    </div>
+    <div class="org-links">
+     <!-- <a class="org-link linkedin" href="" target="_blank">LinkedIn</a>-->
+
+
+

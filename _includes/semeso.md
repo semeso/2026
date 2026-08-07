@@ -1,4 +1,4 @@
-<h1 class="titulo-semeso">SEMESO 2026</h1>
+
 <h2 class="data-semeso">06 a 08 de Outubro de 2026</h2>
 <h3 class= "local-semeso"> UDESC Alto Vale - Ibirama - SC</h3>
 
