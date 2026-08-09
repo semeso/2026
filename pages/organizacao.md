@@ -242,6 +242,10 @@ permalink: '/organizacao/'
     </div>
     <div class="org-links">
      <!-- <a class="org-link linkedin" href="" target="_blank">LinkedIn</a>-->
+    </div>
+  </div>
+</div>
+
 
 
 
