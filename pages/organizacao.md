@@ -247,5 +247,3 @@ permalink: '/organizacao/'
 </div>
 
 
-
-
