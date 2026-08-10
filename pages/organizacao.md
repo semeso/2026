@@ -226,9 +226,8 @@ permalink: '/organizacao/'
       <span class="role-badge talks">Coordenação de Minicursos</span>
     </div>
     <div class="org-links">
-    <!--   <a class="org-link linkedin" href="" target="_blank">LinkedIn</a> -->
-  </div>
     </div>
+  </div>
 
   <!-- Nicolas Scandolara -->
   <div class="org-card">
@@ -241,9 +240,9 @@ permalink: '/organizacao/'
       <span class="role-badge talks">Coordenação de Minicursos</span>
     </div>
     <div class="org-links">
-     <!-- <a class="org-link linkedin" href="" target="_blank">LinkedIn</a>-->
     </div>
   </div>
 </div>
+
 
 
