@@ -33,3 +33,13 @@
 - title: 'Contato'
   url: '/contact/'
   side: right
+  
+- title: 'Edições Anteriores'
+  side: right
+  dropdown:
+  - title: '2025'
+    url: 'https://semeso.github.io/2025/'
+  - title: '2024'
+    url: 'https://semeso.github.io/2024/'
+  - title: '2023'
+    url: 'https://semeso.github.io/2023/'
