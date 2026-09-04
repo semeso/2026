@@ -1,6 +1,6 @@
 
 <h2 class="data-semeso">06 a 08 de Outubro de 2026</h2>
-<h3 class= "local-semeso"> UDESC Alto Vale - Ibirama - SC</h3>
+<h3 class="local-semeso"> UDESC Alto Vale - Ibirama - SC</h3>
 
 O XIII Seminário de Engenharia de Software (SEMESO 2026) é um evento promovido pelo Departamento de Engenharia de Software da UDESC Alto Vale, que será realizado no mês de outubro de 2026, em Ibirama. Consolidado como um dos principais eventos acadêmicos e tecnológicos da região do Alto Vale do Itajaí, o SEMESO tem como objetivo promover o intercâmbio de conhecimentos entre estudantes, professores, pesquisadores e profissionais da área de tecnologia por meio de palestras, minicursos, oficinas e atividades voltadas à inovação e à qualificação profissional em Engenharia de Software.
 

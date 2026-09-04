@@ -33,9 +33,9 @@ permalink: '/organizacao/'
   transition:transform .2s ease, box-shadow .2s ease, border-color .6s ease;;
 }
 .org-card:hover{ 
-  transform:translateY(-10px); 
-  box-shadow:0 6px 18px rgba(0,0,0,.08); 
-  border:2px solid rgb(23, 95, 27); 
+  transform:translateY(-4px); 
+  box-shadow:0 8px 20px rgba(0,0,0,.08); 
+  border:2px solid #20f0cd; 
 }
 
 /* avatar */

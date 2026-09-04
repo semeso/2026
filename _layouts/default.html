@@ -10,8 +10,8 @@ layout: compress
     <head>
         {% include _head.html %}
         <link
-            href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
             rel="stylesheet"
+            href="{{ '/assets/css/animacoes.css' | relative_url }}"
         />
         <link
             rel="stylesheet"
@@ -27,6 +27,11 @@ layout: compress
         />
     </head>
     <body id="top-of-page" class="{{ layout.format }}">
+        {% if page.homepage == true %}
+        <div id="tech-canvas-container" class="tech-canvas-container" aria-hidden="true">
+            <canvas id="tech-canvas"></canvas>
+        </div>
+        {% endif %}
         <!-- Ondas laterais -->
   <!--      <div class="wave-vertical wave-left">
             <svg viewBox="0 0 100 1000" preserveAspectRatio="none">
@@ -68,7 +73,6 @@ layout: compress
         endunless %} {% include _masthead.html %} {{ content }} {% unless
         page.skip_boilerplate %} {% include _footer.html %} {% endunless %} {%
         include _footer_scripts.html %}
-        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
         <script src="{{ '/assets/js/animacoes.js' | relative_url }}"></script>
     </body>
 </html>

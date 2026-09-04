@@ -1,0 +1,191 @@
+---
+---
+/* ==========================================================================
+   SEMESO 2026 - Animações Sutis e Profissionais
+   CSS puro com foco em elegância, identidade visual e acessibilidade.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Smooth Scroll
+   -------------------------------------------------------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+
+/* --------------------------------------------------------------------------
+   2. Classes de Reveal ao Rolar a Página (IntersectionObserver)
+   -------------------------------------------------------------------------- */
+.reveal,
+.reveal-left,
+.reveal-right,
+.reveal-fade {
+  opacity: 0;
+  transition-duration: 0.7s;
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  transition-property: opacity, transform;
+  will-change: opacity, transform;
+}
+
+/* Entrada de baixo para cima */
+.reveal {
+  transform: translateY(26px);
+}
+
+/* Entrada suave pela esquerda */
+.reveal-left {
+  transform: translateX(-30px);
+}
+
+/* Entrada suave pela direita */
+.reveal-right {
+  transform: translateX(30px);
+}
+
+/* Apenas fade suave de opacidade */
+.reveal-fade {
+  transform: none;
+}
+
+/* Estado Ativado (quando entra no viewport) */
+.reveal.is-revealed,
+.reveal-left.is-revealed,
+.reveal-right.is-revealed,
+.reveal-fade.is-revealed {
+  opacity: 1;
+  transform: translate(0, 0);
+  will-change: auto;
+}
+
+/* Delays escalonados para listas de cards ou blocos sequenciais */
+.delay-1 { transition-delay: 0.1s; }
+.delay-2 { transition-delay: 0.2s; }
+.delay-3 { transition-delay: 0.3s; }
+.delay-4 { transition-delay: 0.4s; }
+
+/* --------------------------------------------------------------------------
+   3. Fundo Tecnológico e Efeito de Bolinhas (Restrito ao Topo / Logo)
+   -------------------------------------------------------------------------- */
+.tech-canvas-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 440px;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+  /* Fica transparente à medida que desce em direção ao conteúdo */
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 0) 100%);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.9) 50%, rgba(0, 0, 0, 0) 100%);
+  transition: opacity 0.15s ease-out;
+}
+
+#tech-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Garante que o cabeçalho seja translúcido para integração com o fundo */
+#masthead-no-image-header {
+  background-color: transparent;
+  position: relative;
+  z-index: 2;
+}
+
+/* REGRA ESTRITA: A logo do SEMESO NUNCA recebe animações nem transformações */
+#logo,
+#logo img {
+  animation: none !important;
+  transform: none !important;
+  transition: none !important;
+  opacity: 1 !important;
+}
+
+/* --------------------------------------------------------------------------
+   5. Microinterações no Menu de Navegação
+   -------------------------------------------------------------------------- */
+@media only screen and (min-width: 40.063em) {
+  .top-bar-section > ul > li > a {
+    position: relative;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+
+  /* Underline animado usando ::before para NÃO conflitar com a setinha (::after) do dropdown */
+  .top-bar-section > ul > li > a::before {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+    right: 15px;
+    height: 2px;
+    background-color: #20f0cd;
+    border-radius: 2px;
+    box-shadow: 0 0 6px rgba(32, 240, 205, 0.4);
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  /* Ajuste no item Programação (has-dropdown): a linha fica sob o texto, sem sobrepor a setinha */
+  .top-bar-section > ul > li.has-dropdown > a::before {
+    right: 32px;
+  }
+
+  /* Exibição do underline no hover e no item ativo */
+  .top-bar-section > ul > li:hover > a::before,
+  .top-bar-section > ul > li.active > a::before,
+  .top-bar-section > ul > li.has-dropdown:has(.dropdown li.active) > a::before {
+    transform: scaleX(1);
+  }
+
+  /* Transição suave na setinha do dropdown */
+  .top-bar-section > ul > li.has-dropdown:hover > a:after {
+    border-top-color: #20f0cd !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   6. Acessibilidade (prefers-reduced-motion)
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reveal,
+  .reveal-left,
+  .reveal-right,
+  .reveal-fade {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+
+  .tech-canvas-container {
+    display: none !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   7. Fallback para Navegadores sem JavaScript (.no-js)
+   -------------------------------------------------------------------------- */
+html.no-js .reveal,
+html.no-js .reveal-left,
+html.no-js .reveal-right,
+html.no-js .reveal-fade {
+  opacity: 1 !important;
+  transform: none !important;
+}

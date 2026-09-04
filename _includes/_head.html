@@ -17,7 +17,7 @@ endcapture %} {% assign title = title | strip_html | escape | strip_newlines %}
 <link
     rel="stylesheet"
     type="text/css"
-    href="{{ url }}/assets/css/styles_feeling_responsive.css"
+    href="{{ '/assets/css/styles_feeling_responsive.css' | relative_url }}"
 />
 
 {% if site.asciidoctor-enabled == true %}
@@ -31,7 +31,7 @@ endcapture %} {% assign title = title | strip_html | escape | strip_newlines %}
 />
 {% endif %}
 
-<script src="{{ url }}/assets/js/modernizr.min.js"></script>
+<script src="{{ '/assets/js/modernizr.min.js' | relative_url }}"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 <script>

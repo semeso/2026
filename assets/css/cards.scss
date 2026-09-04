@@ -9,10 +9,16 @@
   background: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.3s ease, border-color 0.3s ease;
   position: relative;
   background: white;
   z-index: 1;
+}
+
+/* Microinteração no hover dos cards */
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08), 0 3px 8px rgba(32, 240, 205, 0.18);
 }
 
 
