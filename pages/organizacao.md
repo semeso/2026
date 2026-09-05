@@ -207,7 +207,6 @@ permalink: '/organizacao/'
     <div class="org-meta">Acadêmica</div>
     <div class="org-roles">
       <span class="role-badge talks">Coordenação de Palestras</span>
-      <span class="role-badge ops">Coordenação de Infraestrutura</span>
       <span class="role-badge dev">Desenvolvimento Web</span>
     </div>
     <div class="org-links">
@@ -226,6 +225,7 @@ permalink: '/organizacao/'
       <span class="role-badge talks">Coordenação de Minicursos</span>
     </div>
     <div class="org-links">
+      <a class="org-link linkedin" href="https://www.linkedin.com/in/maria-eduarda-de-quadros/" target="_blank">LinkedIn</a>
     </div>
   </div>
 
@@ -238,8 +238,8 @@ permalink: '/organizacao/'
     <div class="org-meta">Acadêmico</div>
     <div class="org-roles">
       <span class="role-badge talks">Coordenação de Minicursos</span>
-    </div>
     <div class="org-links">
+      <a class="org-link linkedin" href="https://www.linkedin.com/in/nicolas-scandolara-castro/" target="_blank">LinkedIn</a>
     </div>
   </div>
 </div>

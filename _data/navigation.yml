@@ -35,6 +35,7 @@
   side: right
   
 - title: 'Edições Anteriores'
+  url: '#'
   side: right
   dropdown:
   - title: '2025'

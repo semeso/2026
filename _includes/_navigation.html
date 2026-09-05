@@ -30,9 +30,9 @@
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
                 {% assign _baseurl = '' %}
-              {% elsif link.url == '#' %}
+              {% elsif link.url == '#' or link.url == nil %}
                 {% assign domain = '' %}
-                {% assign _baseurl = site.baseurl %}
+                {% assign _baseurl = '' %}
               {% else %}
                 {% assign domain = site.url %}
                 {% assign _baseurl = site.baseurl %}
@@ -56,12 +56,17 @@
                     {% for dropdown_link in link.dropdown %}
 
                       {% if dropdown_link.url contains 'http' %}
-                        {% assign domain = '' %}
-                        {% else %}
-                        {% assign domain = site.url %}
+                        {% assign dropdown_domain = '' %}
+                        {% assign dropdown_baseurl = '' %}
+                      {% elsif dropdown_link.url == '#' or dropdown_link.url == nil %}
+                        {% assign dropdown_domain = '' %}
+                        {% assign dropdown_baseurl = '' %}
+                      {% else %}
+                        {% assign dropdown_domain = site.url %}
+                        {% assign dropdown_baseurl = site.baseurl %}
                       {% endif %}
 
-                      <li><a {% if dropdown_link.class %}class="{{dropdown_link.class}}"{% endif %} href="{{ domain }}{{ _baseurl }}{{ dropdown_link.url }}"{% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title | escape }}</a></li>
+                      <li><a {% if dropdown_link.class %}class="{{dropdown_link.class}}"{% endif %} href="{{ dropdown_domain }}{{ dropdown_baseurl }}{{ dropdown_link.url }}"{% if dropdown_link.url contains 'http' %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ dropdown_link.title | escape }}</a></li>
                     {% endfor %}
                   </ul>
 
@@ -90,9 +95,9 @@
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
                 {% assign _baseurl = '' %}
-              {% elsif link.url == '#' %}
+              {% elsif link.url == '#' or link.url == nil %}
                 {% assign domain = '' %}
-                {% assign _baseurl = site.baseurl %}
+                {% assign _baseurl = '' %}
               {% else %}
                 {% assign domain = site.url %}
                 {% assign _baseurl = site.baseurl %}
@@ -118,12 +123,17 @@
                     {% for dropdown_link in link.dropdown %}
 
                       {% if dropdown_link.url contains 'http' %}
-                        {% assign domain = '' %}
-                        {% else %}
-                        {% assign domain = site.url %}
+                        {% assign dropdown_domain = '' %}
+                        {% assign dropdown_baseurl = '' %}
+                      {% elsif dropdown_link.url == '#' or dropdown_link.url == nil %}
+                        {% assign dropdown_domain = '' %}
+                        {% assign dropdown_baseurl = '' %}
+                      {% else %}
+                        {% assign dropdown_domain = site.url %}
+                        {% assign dropdown_baseurl = site.baseurl %}
                       {% endif %}
 
-                      <li><a {% if dropdown_link.class %}class="{{dropdown_link.class}}"{% endif %} href="{{ domain }}{{ _baseurl }}{{ dropdown_link.url }}"{% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title | escape }}</a></li>
+                      <li><a {% if dropdown_link.class %}class="{{dropdown_link.class}}"{% endif %} href="{{ dropdown_domain }}{{ dropdown_baseurl }}{{ dropdown_link.url }}"{% if dropdown_link.url contains 'http' %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ dropdown_link.title | escape }}</a></li>
                     {% endfor %}
                   </ul>
 
