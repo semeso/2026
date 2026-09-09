@@ -52,6 +52,25 @@ body.video cite { color: #fff; }
     [class^='icon-']:before, [class*=' icon-']:before {
         margin-right: rem-calc(8);
     }
+
+    .top-bar-section {
+        ul li:hover > a,
+        ul li.hover > a,
+        ul li > a:hover {
+            color: #ffffff;
+        }
+
+        .dropdown li:hover > a,
+        .dropdown li.hover > a,
+        .dropdown li > a:hover {
+            color: #ffffff;
+        }
+
+        .has-dropdown:hover > a:after,
+        .has-dropdown.hover > a:after {
+            border-top-color: #ffffff;
+        }
+    }
 }
 
 

@@ -21,7 +21,7 @@
 
         <div class="ministrante-box">
             <img
-                src="{{ site.urlimg }}{{ minicurso.ministrante.foto }}"
+                src="{% if minicurso.ministrante.foto contains 'http' %}{{ minicurso.ministrante.foto }}{% else %}{{ site.baseurl }}/images/{{ minicurso.ministrante.foto }}{% endif %}"
                 alt="{{ minicurso.ministrante.nome }}"
                 style="border-radius: 50%; max-width: 160px; flex-shrink: 0"
                 class="img-responsive"

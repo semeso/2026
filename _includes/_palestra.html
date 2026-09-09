@@ -17,7 +17,7 @@
             <div class="medium-3 columns">
                 <img
                     class="img-responsive"
-                    src="{{ site.urlimg }}{{ p.foto }}"
+                    src="{% if p.foto contains 'http' %}{{ p.foto }}{% else %}{{ site.baseurl }}/images/{{ p.foto }}{% endif %}"
                     alt="{{ p.nome }}"
                 />
                 <p>
