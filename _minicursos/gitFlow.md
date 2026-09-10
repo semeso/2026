@@ -10,7 +10,7 @@ descricao: >
 requisitos: >
     <strong>Pré-requisitos</strong>: Conhecimentos básicos em GIT.
 vagas: 'A definir'
-local: 'Laboratório 1 (bloco Carvalho)'
+local: 'A definir'
 ministrante:
     nome: 'Davi Gabriel Scottini Adriano'
     link: 'https://br.linkedin.com/in/davi-gabriel-scottini-adriano-329935262'

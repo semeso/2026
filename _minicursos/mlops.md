@@ -10,7 +10,7 @@ descricao: >
 requisitos: >
     <strong>Pré-requisitos</strong>: Conhecimentos básicos em lógica de programação.
 vagas: 'A definir'
-local: 'Laboratório 6 '
+local: 'A definir'
 ministrante:
     nome: 'Ian Felipe Ribeiro dos Santos'
     link: 'https://www.linkedin.com/in/ian-santos-205416385/'

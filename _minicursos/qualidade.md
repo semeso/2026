@@ -10,7 +10,7 @@ descricao: >
 requisitos: >
     <strong>Pré-requisitos</strong>: Conhecimentos básicos em lógica de programação e desenvolvimento de software, sendo desejável uma compreensão inicial de JavaScript/TypeScript e Git.
 vagas: 'A definir'
-local: 'Laboratório 2 (bloco Carvalho)'
+local: 'A definir'
 ministrante: 
     nome: 'Lucas da Cunha Rodrigues'
     link: 'https://www.linkedin.com/in/lrodrigues21/'

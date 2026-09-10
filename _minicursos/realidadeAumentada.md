@@ -10,7 +10,7 @@ descricao: >
 requisitos: >
     <strong>Pré-requisitos</strong>: Conhecimento básico de programação; noções iniciais de Unity são bem-vindas, mas não obrigatórias, pois a configuração do ambiente e o desenvolvimento do jogo serão ensinados do zero e na prática.
 vagas: 'A definir'
-local: 'Laboratório 3 (bloco Carvalho)'
+local: 'A definir'
 ministrante: 
     nome: 'Ana Fábia Coelho dos Santos'
     link: 'www.linkedin.com/in/afcoelho44'

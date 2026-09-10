@@ -10,7 +10,7 @@ descricao: >
 requisitos: >
     <strong>Pré-requisitos</strong>: Conhecimentos básicos de Git, JavaScript/TypeScript, HTML, CSS, Node.js, desenvolvimento web e banco de dados; não é preciso domínio aprofundado nas tecnologias, pois os conceitos chave serão revisados na prática ao longo do minicurso.
 vagas: 'A definir'
-local: 'Laboratório 5 (bloco Carvalho)'
+local: 'A definir'
 ministrante:
     nome: 'Gustavo Hernandes Furtado de Avelar'
     link: 'https://br.linkedin.com/in/gusdev0258'

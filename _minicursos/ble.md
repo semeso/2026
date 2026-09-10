@@ -10,7 +10,7 @@ descricao: >
 requisitos: >
     <strong>Pré-requisitos</strong>: Conhecimentos básicos em lógica de programação.
 vagas: 'A definir'
-local: 'Laboratório 5 (bloco Carvalho)'
+local: 'A definir'
 ministrante:
     nome: 'Fernando Posser Pinheiro'
     link: 'https://www.linkedin.com/in/feerposser/'
