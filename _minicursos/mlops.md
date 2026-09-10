@@ -15,5 +15,5 @@ ministrante:
     nome: 'Ian Felipe Ribeiro dos Santos'
     link: 'https://www.linkedin.com/in/ian-santos-205416385/'
     bio: 'Técnico em Informática pelo Instituto Federal Catarinense com bagagem em Python, Java, PHP e pesquisa publicada no Congresso Internacional de Conhecimento e Inovação (ciKi), atua como Desenvolvedor de Software com foco na construção de microsserviços de Inteligência Artificial.'
-    foto: 'person.png'
+    foto: 'ministrantes/ian.jpeg'
 ---

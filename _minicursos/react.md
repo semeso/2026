@@ -15,5 +15,5 @@ ministrante:
     nome: 'Nicolas Antonio Weber'
     link: 'https://www.linkedin.com/in/nicolas-weber-b272801a0/'
     bio: 'Desenvolvedor mobile com 4 anos de experiência prática no mercado e graduando no último semestre de Engenharia de Software na UDESC - Ceavi.'
-    foto: 'person.png'
+    foto: 'ministrantes/nicolas.jpeg'
 ---

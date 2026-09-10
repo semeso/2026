@@ -15,5 +15,5 @@ ministrante:
     nome: 'Fernando Posser Pinheiro'
     link: 'https://www.linkedin.com/in/feerposser/'
     bio: 'Professor universitário de Ciência da Computação na Atitus Educação com mais de 7 anos de experiência no ensino superior, Fernando atua na formação de novos talentos por meio de metodologias ativas, além de ter bagagem em Engenharia de Dados (Learning Analytics) na ENTER Tech Edu, desenvolvimento autônomo de jogos na POPI Game Studio e empreendedorismo de impacto social como fundador da Mymba; palestrante e entusiasta da cultura hacker, já liderou dezenas de workshops e eventos focados no compartilhamento livre de conhecimento sobre tecnologia e inovação.'
-    foto: 'person.png'
+    foto: 'ministrantes/fernando-posser.jpeg'
 ---

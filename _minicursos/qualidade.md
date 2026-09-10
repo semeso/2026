@@ -15,5 +15,5 @@ ministrante:
     nome: 'Lucas da Cunha Rodrigues'
     link: 'https://www.linkedin.com/in/lrodrigues21/'
     bio: 'Engenheiro e profissional de Qualidade de Software especializado em testes manuais e automatizados para Web e APIs REST, com experiência em todo o ciclo de QA, integração contínua (CI/CD) e aplicação de Inteligência Artificial no fluxo de desenvolvimento. Possui forte domínio prático de ferramentas como Playwright, Cypress, Postman, Cucumber, K6, Git, SQL, Jira e Azure DevOps, além de histórico como palestrante no The Developer''s Conference (TDC) e instrutor de minicursos acadêmicos na UDESC.'
-    foto: 'person.png'
+    foto: 'ministrantes/lucas.jpeg'
 ---

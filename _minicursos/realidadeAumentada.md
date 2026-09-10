@@ -15,5 +15,5 @@ ministrante:
     nome: 'Ana Fábia Coelho dos Santos'
     link: 'www.linkedin.com/in/afcoelho44'
     bio: 'Desenvolvedora de jogos com experiência prática em Unity adquirida no Laboratório de Jogos da UDESC (GameLab) e consolidada na disciplina acadêmica de Jogos, atuando na criação, aprimoramento de mecânicas e aplicação de conceitos fundamentais de desenvolvimento em múltiplos projetos.'
-    foto: 'person.png'
+    foto: 'ministrantes/ana-fabia.jpeg'
 ---

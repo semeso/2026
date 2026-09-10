@@ -15,5 +15,5 @@ ministrante:
     nome: 'Gustavo Hernandes Furtado de Avelar'
     link: 'https://br.linkedin.com/in/gusdev0258'
     bio: 'Engenheiro de Software formado pela UDESC - Ceavi, possui atuação diária com o ecossistema do minicurso e mantém estudos contínuos focados em novas tecnologias e conceitos arquiteturais para o desenvolvimento de software.'
-    foto: 'person.png'
+    foto: 'ministrantes/gustavo.jpeg'
 ---
