@@ -323,9 +323,13 @@ body.video cite { color: #fff; }
     font-size: 24px;
     padding: 5px;
     border-radius: 3px;
+    background: #0a1af6;
+    color: #ffffff;
+    transition: background 0.2s ease;
 }
 #up-to-top a:hover {
-    background: $grey-2;
+    background: lighten(#0a1af6, 10%);
+    color: #ffffff;
 }
 
 
@@ -336,36 +340,49 @@ body.video cite { color: #fff; }
 
 
 #footer, .footer {
-    background: rgba(242, 242, 247, 0.75) !important;
-
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-
-    border-top: 1px solid rgba(255,255,255,0.5);
-
-    box-shadow: 0 -4px 20px rgba(0,0,0,0.05);
-
-    color: #1c1c1e !important;
-    }
+    background: #0a1af6 !important;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+    color: #ffffff !important;
+}
 #footer-content p,
 #footer-content li {
     font-size: rem-calc(13);
     font-weight: 300;
+    color: rgba(255, 255, 255, 0.95) !important;
+}
+#footer h5 {
+    color: #ffffff !important;
+    font-weight: 600;
 }
 #footer li,
-#footer a,
-#subfooter p,
-#subfooter a,
-#subfooter li {
-    color: #3a3a3c !important;
+#footer a {
+    color: #ffffff !important;
+    transition: color 0.2s ease;
+}
+#footer a:hover {
+    color: #20f0cd !important;
+    text-decoration: underline;
 }
 /* Subfooter
 ------------------------------------------------------------------- */
 
 #subfooter, .subfooter  {
-    background: #e5e5ea !important;
-    color: #1c1c1e;
+    background: #0814c4 !important;
+    color: rgba(255, 255, 255, 0.85) !important;
     padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+#subfooter p,
+#subfooter a,
+#subfooter li {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+#subfooter a:hover {
+    color: #ffffff !important;
+    text-decoration: underline;
 }
 
 #subfooter-left ul.inline-list {
@@ -392,8 +409,8 @@ body.video cite { color: #fff; }
 
     border-radius: 50%;
 
-    background: #d1d1d6;
-    color: #1c1c1e !important;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff !important;
 
     text-align: center;
 
@@ -401,10 +418,11 @@ body.video cite { color: #fff; }
 }
 
 .social-icons a:hover {
-    background: #c7c7cc;
-    color: #000 !important;
+    background: #ffffff;
+    color: #0a1af6 !important;
 
     transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 

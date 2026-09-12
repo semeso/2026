@@ -107,25 +107,25 @@ $topbar-menu-icon-color-toggled: #000000;
 /* Footer
 ------------------------------------------------------------------- */
 
-$footer-bg: grey;
+$footer-bg: $ci-6;
 $footer-color: #fff;
-$footer-link-color: $grey-4;
+$footer-link-color: #fff;
 
 #footer a {
   color: $footer-link-color;
 
   &:hover {
-    color: lighten($footer-link-color, 40%);
+    color: $ci-0;
     text-decoration: underline;
   }
 }
 
 
-$subfooter-bg: grey;
-$subfooter-color: $grey-6;
-$subfooter-link-color: $grey-5;
+$subfooter-bg: darken($ci-6, 8%);
+$subfooter-color: rgba(255, 255, 255, 0.85);
+$subfooter-link-color: rgba(255, 255, 255, 0.85);
 .subfooter a:hover {
-  color: lighten($subfooter-link-color, 10%);
+  color: #fff;
   text-decoration: underline;
 }
 
