@@ -11,8 +11,8 @@
   - title: 'Minicursos'
     url: '/minicursos/'
 
-  - title: 'Visita Técnica'
-    url: '/visita-tecnica/'
+  # - title: 'Visita Técnica'
+  #   url: '/visita-tecnica/'
 
 - title: Inscrições
   url: '/inscricoes/'
