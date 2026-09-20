@@ -3,7 +3,7 @@
 /*Arquivo .scss responsável pela estilização dos cards utilizados nas seções de palestras, minicursos e programação*/
 
 .card {
-  border: 1px solid 	#20f0cd;
+  border: 1px solid 	#012A48;
   border-radius: 6px;
   margin-bottom: 1rem;
   background: #fff;
@@ -25,7 +25,7 @@
 .card-toggle {
   display: block;
   width: 100%;
-  background: #20f0cd;
+  background: #012A48;
   color: white;
   font-weight: bold;
   padding: 1rem 3rem;
@@ -68,13 +68,13 @@
 
 .card-toggle:focus,
 .card-toggle:active {
-  background-color: #14c7a9;
+  background-color: #012A48;
   outline: none;
   box-shadow: none;
 }
 
 .card-toggle:hover {
-  background-color: #1a0a64;
+  background-color: #59C8CC;
 }
 
 .card-content {

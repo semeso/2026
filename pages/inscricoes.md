@@ -7,6 +7,7 @@ permalink: '/inscricoes/'
 ---
 
 ### Minicursos
+##  INSCRIÇÕES ATÉ 26/09!
 
 Preencha seus dados e selecione o minicurso de seu interesse. As vagas são limitadas e a inscrição estará sujeita à disponibilidade de vagas.
 
