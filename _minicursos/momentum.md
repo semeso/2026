@@ -15,5 +15,5 @@ ministrante:
     nome: 'Davi Franz'
     link: 'https://br.linkedin.com/in/davi-gabriel-scottini-adriano-329935262'
     bio: 'Engenheiro de Software formado pela UDESC em 2024 e líder de desenvolvimento na Soeltech, atua na gestão de equipes e produtos digitais B2B, acumulando no currículo mais de 102 aplicativos publicados. Especialista na evolução de processos de software, adapta práticas de engenharia e gestão para otimizar ciclos de entrega rápidos mantendo qualidade, previsibilidade e consistência.'
-    foto: 'person.png'
+    foto: 'ministrantes/davi-franz.jpg'
 ---
