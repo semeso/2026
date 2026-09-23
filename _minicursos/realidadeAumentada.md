@@ -9,8 +9,8 @@ descricao: >
  Explore o universo do desenvolvimento imersivo e crie seu primeiro jogo em Realidade Aumentada (RA) do zero! Neste minicurso prático com Unity e AR Foundation, você aprenderá desde as diferenças entre RA e RV e a configuração do ambiente até a detecção do mundo físico, construção de mecânicas de spawn, sistemas de tiro, vida, pontuação e interfaces completas, saindo do curso com um jogo totalmente funcional e pronto para rodar. 
 requisitos: >
     <strong>Pré-requisitos</strong>: Conhecimento básico de programação; noções iniciais de Unity são bem-vindas, mas não obrigatórias, pois a configuração do ambiente e o desenvolvimento do jogo serão ensinados do zero e na prática.
-vagas: 'A definir'
-local: 'A definir'
+vagas: '15'
+local: 'Laboratório 104 (Bloco Imbuia)'
 ministrante: 
     nome: 'Ana Fábia Coelho dos Santos'
     link: 'https://www.linkedin.com/in/afcoelho44/'

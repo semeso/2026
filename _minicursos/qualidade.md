@@ -9,8 +9,8 @@ descricao: >
     Vivencie uma jornada prática completa de QA dentro de uma Sprint real! Neste minicurso, você verá na prática desde os fundamentos de testes, análise de requisitos e gestão de defeitos até a validação de APIs REST com Postman e automação moderna com Cypress e Playwright. Além de integrar testes em pipelines CI/CD e o boas práticas Git para QA's, você aprenderá a acelerar sua produtividade utilizando Inteligência Artificial para geração de cenários e massas de teste, aplicando tudo na prática ao executar uma mini Sprint de QA do início ao fim.
 requisitos: >
     <strong>Pré-requisitos</strong>: Conhecimentos básicos em lógica de programação e desenvolvimento de software, sendo desejável uma compreensão inicial de JavaScript/TypeScript e Git.
-vagas: 'A definir'
-local: 'A definir'
+vagas: '42'
+local: 'Laboratório 3 (Bloco Carvalho)'
 ministrante: 
     nome: 'Lucas da Cunha Rodrigues'
     link: 'https://www.linkedin.com/in/lrodrigues21/'

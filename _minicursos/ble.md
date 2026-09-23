@@ -9,8 +9,8 @@ descricao: >
    Conecte o mundo físico ao digital neste minicurso prático sobre Internet das  Coisas e tecnologia de beacons! Em apenas dois encontros, você dominará  os conceitos de aproximação e triangulação, construirá um sistema funcional  do zero e entenderá os maiores desafios reais de segurança, infraestrutura e  inteligência de dados no mercado de IoT.
 requisitos: >
     <strong>Pré-requisitos</strong>: Conhecimentos básicos em lógica de programação.
-vagas: 'A definir'
-local: 'A definir'
+vagas: '15'
+local: 'Laboratório 106 (Bloco Imbuia)'
 ministrante:
     nome: 'Fernando Posser Pinheiro'
     link: 'https://www.linkedin.com/in/feerposser/'

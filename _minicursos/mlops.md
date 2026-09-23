@@ -9,8 +9,8 @@ descricao: >
    Entenda a implementação de microsserviços de inteligência artificial com um ciclo de MLOps (operações de aprendizado de máquina) e transforme bases de dados em soluções neste minicurso prático. Você vai aprender a construir modelos de machine learning, passando pela limpeza de dados, treinamento e validação por métricas, além de aplicar esse conhecimento no desenvolvimento de uma API funcional com FastAPI e Docker.
 requisitos: >
     <strong>Pré-requisitos</strong>: Conhecimentos básicos em lógica de programação.
-vagas: 'A definir'
-local: 'A definir'
+vagas: '33'
+local: 'Laboratório 1 (Bloco Carvalho)'
 ministrante:
     nome: 'Ian Felipe Ribeiro dos Santos'
     link: 'https://www.linkedin.com/in/ian-santos-205416385/'

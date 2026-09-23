@@ -9,8 +9,8 @@ descricao: >
     Domine o Git Flow e eleve o nível de organização do seu código neste minicurso prático! Você aprenderá a estrutura completa de ramificações, gerenciando com maestria branches principais e de suporte, além de dominar na prática o ciclo de vida de features, releases e hotfixes para garantir um versionamento seguro e sem conflitos em projetos reais.
 requisitos: >
     <strong>Pré-requisitos</strong>: Conhecimentos básicos em GIT.
-vagas: 'A definir'
-local: 'A definir'
+vagas: '42'
+local: 'Laboratório 2 (Bloco Carvalho)'
 ministrante:
     nome: 'Davi Gabriel Scottini Adriano'
     link: 'https://br.linkedin.com/in/davi-gabriel-scottini-adriano-329935262'
