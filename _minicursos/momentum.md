@@ -9,8 +9,8 @@ descricao: >
     Neste minicurso reflexivo e prático, você entenderá como o avanço de LLMs e agentes de IA está redefinindo o desenvolvimento de software e impactando os frameworks ágeis como Scrum e Extreme Programming (XP). Na parte prática, colocaremos à prova ciclos curtos de desenvolvimento com uso de agentes, testes automatizados, integração contínua e small releases para analisar na prática o impacto real na velocidade, qualidade e capacidade de adaptação. Ao final, discutiremos a reestruturação de processos que empresas vêm adotando para evitar que entregas ultra-rápidas se transformem em retrabalho ou débito técnico.
 requisitos: >
     <strong>Pré-requisitos</strong>: Necessário possuir conhecimentos básicos em metodologias ágeis, conceitos fundamentais de desenvolvimento assistido por inteligência artificial, lógica de programação e noções sobre o ciclo de vida de desenvolvimento de software.
-vagas: 'A definir'
-local: 'A definir'
+vagas: '12'
+local: 'Laboratório 2 (Bloco Carvalho)'
 ministrante:
     nome: 'Davi Franz'
     link: 'https://br.linkedin.com/in/davi-gabriel-scottini-adriano-329935262'
