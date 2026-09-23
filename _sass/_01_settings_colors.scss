@@ -26,12 +26,12 @@ $body-bg            : #fdfdfd;
    https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
 -------------------------------------------------------------------  */
 $ci-0: #20f0cd;
-$ci-1: #160857; 
+$ci-1: #012A48; 
 $ci-2: #140039; 
 $ci-3: #3B82F6; 
 $ci-4: #94A3B8; 
 $ci-5: #11076e; 
-$ci-6: #0a1af6; 
+$ci-6: #012A48; 
 
 
 /* Foundation Color Variables
@@ -72,35 +72,33 @@ $grey-16            : #0B0B0B;
 /* Topbar-Navigation
 ------------------------------------------------------------------- */
 
-$topbar-bg-color    : $body-bg;
+$topbar-bg-color    : #012A48;
 $topbar-bg          : $topbar-bg-color;
 
 
-$topbar-dropdown-toggle-color: $ci-1;
+$topbar-dropdown-toggle-color: #ffffff;
 
-$topbar-link-color  : #000000;
+$topbar-link-color  : #ffffff;
 $topbar-link-color-hover: #ffffff;
 $topbar-link-color-active: #ffffff;
 $topbar-link-color-active-hover: #ffffff;
 
-$topbar-dropdown-label-color: $ci-2;
-$topbar-dropdown-link-bg-hover: $ci-6;
+$topbar-dropdown-label-color: rgba(255, 255, 255, 0.7);
+$topbar-dropdown-link-bg-hover: lighten($ci-6, 12%);
 
-$topbar-link-bg-active:       $ci-6;  // Active Navigation Link
-$topbar-link-bg-hover:        lighten($ci-6, 10%);
-$topbar-link-bg-active-hover: adjust-hue($ci-6, -10deg);
+$topbar-link-bg-active:       lighten($ci-6, 10%);  // Active Navigation Link
+$topbar-link-bg-hover:        lighten($ci-6, 6%);
+$topbar-link-bg-active-hover: lighten($ci-6, 14%);
 
 
 $topbar-dropdown-bg:  	$ci-6; // Background Mobile Navigation
-$topbar-dropdown-link-color: #000;
-$topbar-dropdown-link-bg: lighten($ci-6, 10%);
+$topbar-dropdown-link-color: #ffffff;
+$topbar-dropdown-link-bg: lighten($ci-6, 5%);
 
-$topbar-menu-link-color-toggled: #ffffff;
-$topbar-menu-icon-color-toggled: $ci-6;
 $topbar-menu-link-color: #ffffff;
-$topbar-menu-icon-color: #000;
+$topbar-menu-icon-color: #ffffff;
 $topbar-menu-link-color-toggled: #ffffff;
-$topbar-menu-icon-color-toggled: #000000;
+$topbar-menu-icon-color-toggled: #ffffff;
 
 
 
