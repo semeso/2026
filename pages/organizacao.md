@@ -198,22 +198,6 @@ permalink: '/organizacao/'
 
   </div>
 
-  <!-- Maria Eduarda Müller Ermes -->
-  <div class="org-card">
-    <div class="org-avatar">
-      <img src="{{ '/images/maria-eduarda-m-ermes.jpeg' | relative_url }}" alt="Maria Eduarda Müller Ermes">
-    </div>
-    <div class="org-name">Maria Eduarda Müller Ermes</div>
-    <div class="org-meta">Acadêmica</div>
-    <div class="org-roles">
-      <span class="role-badge talks">Coordenação de Palestras</span>
-      <span class="role-badge dev">Desenvolvimento Web</span>
-    </div>
-    <div class="org-links">
-      <a class="org-link linkedin" href="https://www.linkedin.com/in/maria-eduarda-m%C3%BCller-ermes/" target="_blank">LinkedIn</a>
-    </div>
-      </div>
-
   <!-- Maria Eduarda de Quadros -->
   <div class="org-card">
     <div class="org-avatar">
@@ -223,6 +207,7 @@ permalink: '/organizacao/'
     <div class="org-meta">Acadêmica</div>
     <div class="org-roles">
       <span class="role-badge talks">Coordenação de Minicursos</span>
+      <span class="role-badge marketing">Coordenação de Marketing</span>
     </div>
     <div class="org-links">
       <a class="org-link linkedin" href="https://www.linkedin.com/in/maria-eduarda-de-quadros/" target="_blank">LinkedIn</a>
@@ -244,5 +229,63 @@ permalink: '/organizacao/'
   </div>
 </div>
 
+<!-- Rafael de Carvalho Oss-Emer -->
+  <div class="org-card">
+    <div class="org-avatar">
+      <img src="{{ '/images/rafael-carvalho-oss-emer.jpg' | relative_url }}" alt="Rafael de Carvalho Oss-Emer">
+    </div>
+    <div class="org-name">Rafael de Carvalho Oss-Emer</div>
+    <div class="org-meta">Acadêmico</div>
+    <div class="org-roles">
+      <span class="role-badge ops">Coordenação de Infraestrutura</span>
+      <span class="role-badge dev">Desenvolvimento Web</span>
+    </div>
+    <div class="org-links">
+      <a class="org-link linkedin" href="https://www.linkedin.com/in/rafael-de-carvalho-oss-emer-8a9472300/" target="_blank">LinkedIn</a>
+    </div>
+</div>
+
+<!-- Raiani Yohana Rescarolli -->
+  <div class="org-card">
+    <div class="org-avatar">
+      <img src="{{ '/images/raiani-yohana-rescarolli.jpg' | relative_url }}" alt="Raiani Yohanaa Rescarolli">
+    </div>
+    <div class="org-name">Raiani Yohanaa Rescarolli</div>
+    <div class="org-meta">Acadêmica</div>
+    <div class="org-roles">
+      <span class="role-badge ops">Coordenação de Infraestrutura</span>
+    </div>
+    <div class="org-links">
+      <a class="org-link linkedin" href="https://www.linkedin.com/in/raiani-rescarolli-1b886a37a/" target="_blank">LinkedIn</a>
+    </div>
+</div>
+
+<!-- Poliana Rossi Schäfler -->
+  <div class="org-card">
+    <div class="org-avatar">
+      <img src="{{ '/images/poliana-rossi-schafler.jpg' | relative_url }}" alt="Poliana Rossi Schäfler">
+    </div>
+    <div class="org-name">Poliana Rossi Schäfler</div>
+    <div class="org-meta">Secretaria ESO</div>
+    <div class="org-roles">
+      <span class="role-badge ops">Coordenação de Infraestrutura</span>
+    </div>
+</div>
+
+<!-- Maria Eduarda Müller Ermes -->
+  <div class="org-card">
+    <div class="org-avatar">
+      <img src="{{ '/images/maria-eduarda-m-ermes.jpeg' | relative_url }}" alt="Maria Eduarda Müller Ermes">
+    </div>
+    <div class="org-name">Maria Eduarda Müller Ermes</div>
+    <div class="org-meta">Acadêmica</div>
+    <div class="org-roles">
+      <span class="role-badge talks">Coordenação de Palestras</span>
+      <span class="role-badge dev">Desenvolvimento Web</span>
+    </div>
+    <div class="org-links">
+      <a class="org-link linkedin" href="https://www.linkedin.com/in/maria-eduarda-m%C3%BCller-ermes/" target="_blank">LinkedIn</a>
+    </div>
+</div>
 
 
