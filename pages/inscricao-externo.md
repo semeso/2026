@@ -1,6 +1,6 @@
 ---
 layout: page-fullwidth
-title: 'Inscrição Externos'
+title: 'Participante Externo'
 header:
     image_fullwidth: 'banner-semeso-26.png'
 permalink: '/externo/'
