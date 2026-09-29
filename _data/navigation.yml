@@ -18,10 +18,14 @@
   url: '#'
   side: left
   dropdown:
-  - title: 'Inscrição'
+  - title: 'Minicursos'
     url: '/inscricoes/'
-  - title: 'Inscrição Externos'
+  - title: 'Participante Externo'
     url: '/externo/'
+
+- title: 'Gamificação'
+  url: '/gamificacao/'
+  side: left
 
 - title: Certificados
   url: '/certificados/'

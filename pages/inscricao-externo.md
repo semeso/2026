@@ -2,7 +2,7 @@
 layout: page-fullwidth
 title: 'Inscrição Externos'
 header:
-    image_fullwidth: 'banner-semeso-25.png'
+    image_fullwidth: 'banner-semeso-26.png'
 permalink: '/externo/'
 ---
 
