@@ -15,8 +15,13 @@
   #   url: '/visita-tecnica/'
 
 - title: Inscrições
-  url: '/inscricoes/'
+  url: '#'
   side: left
+  dropdown:
+  - title: 'Inscrição'
+    url: '/inscricoes/'
+  - title: 'Inscrição Externos'
+    url: '/externo/'
 
 - title: Certificados
   url: '/certificados/'
