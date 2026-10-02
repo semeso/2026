@@ -10,7 +10,7 @@ descricao: >
 requisitos: >
     <strong>Pré-requisitos</strong>: Necessário possuir conhecimentos básicos em metodologias ágeis, conceitos fundamentais de desenvolvimento assistido por inteligência artificial, lógica de programação e noções sobre o ciclo de vida de desenvolvimento de software.
 vagas: '12'
-local: 'Laboratório 2 (Bloco Carvalho)'
+local: 'Laboratório 004 (Bloco Carvalho)'
 ministrante:
     nome: 'Davi Franz'
     link: 'https://br.linkedin.com/in/davi-gabriel-scottini-adriano-329935262'

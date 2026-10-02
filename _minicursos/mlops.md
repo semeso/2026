@@ -10,7 +10,7 @@ descricao: >
 requisitos: >
     <strong>Pré-requisitos</strong>: Conhecimentos básicos em lógica de programação.
 vagas: '33'
-local: 'Laboratório 1 (Bloco Carvalho)'
+local: 'Laboratório 001 (Bloco Carvalho)'
 ministrante:
     nome: 'Ian Felipe Ribeiro dos Santos'
     link: 'https://www.linkedin.com/in/ian-santos-205416385/'

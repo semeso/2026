@@ -10,7 +10,7 @@ descricao: >
 requisitos: >
     <strong>Pré-requisitos</strong>: Conhecimentos básicos em JavaScript ou TypeScript e o aplicativo Expo Go pré-instalado em seu smartphone Android ou iOS.
 vagas: '42'
-local: 'Laboratporio 2 (Bloco Carvalho)'
+local: 'Laboratporio 002 (Bloco Carvalho)'
 ministrante: 
     nome: 'Nicolas Antonio Weber'
     link: 'https://www.linkedin.com/in/nicolas-weber-b272801a0/'
