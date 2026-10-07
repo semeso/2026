@@ -37,7 +37,7 @@ Prêmio 2: Teclado Gamer Mecânico
 **Requisitos**: participar de **no mínimo** 02 (duas) palestras. 
 <hr>
 
-Prêmio 3: Headset Bluetooth  
+Prêmio 3: Headphone Bluetooth  
 
 **Requisitos**: participar de **no mínimo** 02 (duas) noites de minicurso e 01 (uma) palestra. 
 <hr>
