@@ -8,4 +8,5 @@ permalink: '/fotos/'
 header:
 ---
 
-Em breve mais informações.
+As fotos do SEMESO 2026 estão disponiveis no link abaixo:<br>
+<a href="https://drive.google.com/drive/folders/1UPy-4Q24ZoeEJQWoRYTACq0lPQhI30XX?usp=drive_link">Fotos do SEMESO 2026</a>
