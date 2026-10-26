@@ -22,5 +22,5 @@ palestrantes:
       foto: 'ramices_santos_silva.png'
 mediador: 'A definir'
 local: 'Auditório UDESC Alto Vale (bloco Imbuia, 3º andar)'
-
+link: '/images/IA_em_Campo_de_Batalha_SEMESO2026.pdf'
 ---
